@@ -23,7 +23,7 @@ São divididas em 5 partes
  Minhas dificuldades foram em centralizar tudo certinho e deixar site responsivo.
 
 ## Versão mobile
-
+ [<img src="./src/imagem/corinthians-mobile.gif" alt="tela gif">]
 ## Link
-(https://igorsousasilva.github.io/oakley/)
+(https://igorsousasilva.github.io/corinthians/)
  
