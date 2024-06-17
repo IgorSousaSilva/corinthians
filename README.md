@@ -1,5 +1,5 @@
 # Projeto corinthians
-[<img src="./src/imagem/tela-oakley.gif" alt="tela gif">]
+
 
 ## Tecnologias utilizadas 
 - HTML
