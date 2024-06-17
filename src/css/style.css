@@ -1,0 +1,384 @@
+ @font-face {
+    font-family: 'town';
+    src: url(../font/BROMPH_TOWN.otf) , url(../font/BROMPH_TOWN.ttf);
+ }
+ 
+ 
+ body {               
+
+    color: white;
+    background-color: black;
+    font-family: 'town' , sans-serif;
+    
+    
+}
+
+
+header {
+
+    background-color: white;
+    padding: 20px;
+    border-bottom: 2px solid black;
+   
+}
+
+
+header img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    
+    
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+
+}
+ 
+
+
+
+
+ header .menu ul {
+    
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+   
+ }
+
+ .menu ul li  {
+    
+    margin-left: 20px;
+    padding: 10px;
+ }
+
+ .menu ul li:hover a {
+    
+     border: 1px solid black;
+     border-radius: 5px;
+     transition: 0.3s ease-in-out;
+     padding: 15px;
+    
+ }
+
+
+ .menu ul li a:hover {
+    color: white;
+    background-color: black;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+.historia {
+    
+    background: url(../imagem/fundo-gavies-fiel.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    
+}
+
+.historia p {
+    color: rgb(255, 241, 241);
+    text-shadow: 10px 5px 12px rgb(0, 0, 0);
+    font-size: 22px;
+    padding: 30px;
+    margin: 0px 20px;
+    line-height: 1.4em;
+    text-align: justify;
+
+}
+
+.escudos {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.escudos img {
+
+   height: 500px;
+   width: 100%;
+}
+
+.escudos .descricao-escudo {
+    padding: 30px;
+    text-align: center;
+}
+
+.escudos .descricao-escudo p {
+    font-size: 18px;
+    margin: 10px;
+    line-height: 1.4em;
+}
+
+
+.escudos .descricao-escudo  a {
+
+    color: white;
+    
+    
+}
+
+.escudos .descricao-escudo  a:hover{
+
+    color: red;
+    text-decoration: underline;
+    
+    
+    
+}
+
+
+
+
+
+
+.uniforme {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    height: 1000px;
+    
+}
+
+.uniforme .img-camiseta {
+     width: 100%;
+     height: 100%;
+}
+
+.uniforme .right {
+    background: url(../imagem/manto-branco.jpg) no-repeat top center;
+    background-size: cover
+    
+}
+
+.uniforme .left {
+    background: url(../imagem/manto-preto.jpg) no-repeat top center;
+    background-size: cover
+}    
+
+.uniforme .descricao-uniforme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.uniforme .descricao-uniforme p{
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+.uniforme .descricao-uniforme span {
+    color: red;
+}
+
+
+
+.idolos {
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}    
+
+.idolos h2 {
+    
+    margin: 10px;
+    font-size: 18px;
+
+}
+
+.idolos img {
+    height: 60%;
+    width: 40%;
+}
+
+
+
+.idolos-do-corinthians ul {
+    padding: 20px;
+    columns: 4 ;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid white;
+    
+}
+
+.idolos-do-corinthians ul li a {
+    color: white;
+    padding-left: 8px;
+
+}
+
+.idolos-do-corinthians ul li:hover a {
+    color: red;
+}  
+
+.maiores-idolos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.maiores-idolos h2 {
+    text-align: center;
+    margin: 10px;
+
+
+}
+
+.maiores-idolos .extras {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.maiores-idolos .extras div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maiores-idolos .extras div span{
+    color: white;
+    cursor: pointer;
+}
+
+.maiores-idolos .extras div:hover span {
+    color: red;
+}
+
+
+.maiores-idolos .extras  div img {
+    width: 300px;
+    height: 400px;
+}
+
+.centralizar-titulos{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.titulos{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+   
+    padding: 0px 10px;
+}
+
+.titulos .slide {
+ 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    opacity: 0;
+}
+
+.titulos .mostrar {
+    opacity: 1;
+    
+}
+
+.titulos .slide .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulos .slide .conteudo img {
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    display: block;
+}
+
+
+.titulos .slide .conteudo a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+} 
+
+.titulos .slide .conteudo a p{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.titulos .slide .conteudo a span{
+    font-size: 15px;
+    text-align: center;
+    color: red;
+
+}
+
+
+
+
+.seta-voltar, .seta-avancar {
+    position: absolute;
+    z-index: 1;
+    
+}
+.seta-voltar {
+    top: 45%;
+    left:  2%;
+}
+
+.seta-avancar {
+    top: 45%;
+    left:  93%;
+    transform: rotateY(180deg);
+}
+
+
+
+.opacidade {
+    cursor: default;
+    opacity: 0.5;
+}
